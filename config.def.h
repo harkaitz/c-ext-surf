@@ -15,8 +15,8 @@ static char *cookiefile     = "~/.surf/cookies.txt";
  */
 static Parameter defconfig[ParameterLast] = {
 	/* parameter                    Arg value       priority */
-	[AccessMicrophone]    =       { { .i = 0 },     },
-	[AccessWebcam]        =       { { .i = 0 },     },
+	[AccessMicrophone]    =       { { .i = 1 },     },
+	[AccessWebcam]        =       { { .i = 1 },     },
 	[Certificate]         =       { { .i = 0 },     },
 	[CaretBrowsing]       =       { { .i = 0 },     },
 	[CookiePolicies]      =       { { .v = "@Aa" }, },

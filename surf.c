@@ -274,8 +274,8 @@ static ParamName loadtransient[] = {
 };
 
 static ParamName loadcommitted[] = {
-//	AccessMicrophone,
-//	AccessWebcam,
+	AccessMicrophone,
+	AccessWebcam,
 	CaretBrowsing,
 	DarkMode,
 	DefaultCharset,
